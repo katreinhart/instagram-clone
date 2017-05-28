@@ -1,3 +1,6 @@
-# React-Redux-Starter-Updated
+# Instagram clone
+A simple Instagram clone. 
 
-An updated boilerplate for Stephen Grider's courses.
+Based off of React-Redux-Starter-Updated
+
+An updated boilerplate for Stephen Grider's courses

@@ -11,4 +11,8 @@ describe('App' , () => {
   it('renders something', () => {
     expect(component).to.exist;
   });
+
+  it('renders proper header', () => {
+    expect(component).to.contain("Kats Instagram Clone");
+  });
 });
