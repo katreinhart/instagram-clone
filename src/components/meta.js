@@ -5,8 +5,8 @@ export default class Meta extends Component {
     return(
       <div className="post-meta">
         <div className="posted-at">Posted At: </div>
-        <div className="likes">Likes:</div>
-        <button className="like">Like</button>
+        <div className="likes">Likes: {this.props.likes}</div>
+        <button onClick={this.props.addLike} className="like">Like</button>
       </div>
     )
   }
