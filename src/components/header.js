@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 export default class Header extends Component {
   render() {
     return(
-      <h1>Kat's Instagram Clone</h1>
+      <div className = "site-header">
+        <span className="logo"></span><h1>Instagram Clone</h1> | <span className="discover">Discover</span> | <span class="user">Profile</span>
+      </div>
     );
   }
 }

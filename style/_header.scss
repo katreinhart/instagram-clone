@@ -1,4 +1,15 @@
+.site-header {
+  width: 100%;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.discover, .user {
+  display: inline-block;
+  text-align: right;
+}
+
 h1{
-  font-size: 48px;
+  font-family: "Lobster Two", cursive;
+  font-size: 24px;
   color: #030303;
 }
